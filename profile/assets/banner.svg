@@ -1,133 +1,125 @@
 <svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">redstone.md organization banner</title>
-  <desc id="desc">Dark technical banner with warm red and orange gradients, abstract grid lines, and the redstone.md organization label.</desc>
+  <desc id="desc">Updated modern technical banner for redstone.md with logo moved left and texts repositioned for perfect balance.</desc>
+  
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
       <stop stop-color="#09090B"/>
-      <stop offset="0.55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#1F2937"/>
+      <stop offset="0.6" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F172A"/>
     </linearGradient>
-    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(244 116) rotate(34.6) scale(270 220)">
-      <stop stop-color="#F97316" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#F97316" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 80) rotate(136.2) scale(320 260)">
-      <stop stop-color="#DC2626" stop-opacity="0.52"/>
-      <stop offset="1" stop-color="#DC2626" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="cardStroke" x1="804" y1="42" x2="1182" y2="258" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FB923C" stop-opacity="0.7"/>
-      <stop offset="1" stop-color="#EF4444" stop-opacity="0.38"/>
+
+    <linearGradient id="brandText" x1="160" y1="120" x2="460" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FAFB"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
     </linearGradient>
-    <filter id="softBlur" x="-60" y="-60" width="1400" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="30"/>
+    
+    <linearGradient id="crystalTop" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FB923C"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="crystalLeft" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#DC2626"/>
+      <stop offset="1" stop-color="#991B1B"/>
+    </linearGradient>
+    <linearGradient id="crystalRight" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B91C1C"/>
+      <stop offset="1" stop-color="#7F1D1D"/>
+    </linearGradient>
+
+    <linearGradient id="cardBorder1" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#00ADD8" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#00ADD8" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="cardBorder2" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#3178C6" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#3178C6" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="40" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
   </defs>
 
-  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1278" height="318" rx="27" stroke="#27272A"/>
+  <rect width="1280" height="320" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="20" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1278" height="318" rx="19" stroke="#334155" stroke-opacity="0.5"/>
 
-  <g filter="url(#softBlur)">
-    <ellipse cx="244" cy="116" rx="210" ry="140" fill="url(#glowLeft)"/>
-    <ellipse cx="1030" cy="80" rx="240" ry="170" fill="url(#glowRight)"/>
-  </g>
+  <circle cx="200" cy="160" r="140" fill="#DC2626" opacity="0.15" filter="url(#softGlow)"/>
+  <circle cx="1000" cy="160" r="180" fill="#EA580C" opacity="0.1" filter="url(#softGlow)"/>
 
-  <g opacity="0.16">
-    <path d="M0 236H1280" stroke="#E5E7EB"/>
-    <path d="M0 188H1280" stroke="#E5E7EB"/>
-    <path d="M0 140H1280" stroke="#E5E7EB"/>
-    <path d="M0 92H1280" stroke="#E5E7EB"/>
-    <path d="M0 44H1280" stroke="#E5E7EB"/>
-    <path d="M124 0V320" stroke="#E5E7EB"/>
-    <path d="M252 0V320" stroke="#E5E7EB"/>
-    <path d="M380 0V320" stroke="#E5E7EB"/>
-    <path d="M508 0V320" stroke="#E5E7EB"/>
-    <path d="M636 0V320" stroke="#E5E7EB"/>
-    <path d="M764 0V320" stroke="#E5E7EB"/>
-    <path d="M892 0V320" stroke="#E5E7EB"/>
-    <path d="M1020 0V320" stroke="#E5E7EB"/>
-    <path d="M1148 0V320" stroke="#E5E7EB"/>
-  </g>
+  <g transform="translate(40, 0)">
+    <g transform="translate(0, 115) scale(1.1)">
+      <polygon points="40,15 80,-5 120,15 120,55 80,75 40,55" fill="#EF4444" opacity="0.2" filter="url(#glow)"/>
+      <polygon points="80,-10 115,10 80,30 45,10" fill="url(#crystalTop)"/>
+      <polygon points="45,10 80,30 80,70 45,50" fill="url(#crystalLeft)"/>
+      <polygon points="115,10 80,30 80,70 115,50" fill="url(#crystalRight)"/>
+    </g>
 
-  <path d="M0 272C116 226 172 214 276 212C394 210 450 256 576 256C704 256 756 180 872 180C986 180 1064 242 1280 164V320H0V272Z" fill="#0B1220" fill-opacity="0.74"/>
-  <path d="M0 280C116 234 172 220 276 220C394 220 450 266 576 266C704 266 756 188 872 188C986 188 1064 248 1280 172" stroke="url(#cardStroke)" stroke-width="2"/>
-
-  <circle cx="126" cy="64" r="10" fill="#F97316"/>
-  <circle cx="154" cy="64" r="10" fill="#EA580C"/>
-  <circle cx="182" cy="64" r="10" fill="#B91C1C"/>
-
-  <g>
-    <rect x="72" y="88" width="286" height="34" rx="17" fill="#131A28" stroke="#2A3446"/>
-    <text x="96" y="110" fill="#FDBA74" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.8">ORGANIZATION PROFILE</text>
-  </g>
-
-  <g filter="url(#softBlur)" opacity="0.36">
-    <rect x="70" y="124" width="92" height="92" rx="22" fill="#7F1D1D"/>
-  </g>
-
-  <g transform="translate(82 132)">
-    <rect x="32" y="0" width="8" height="8" rx="1.5" fill="#4A0D0D"/>
-    <rect x="24" y="8" width="8" height="8" rx="1.5" fill="#6B1111"/>
-    <rect x="32" y="8" width="8" height="8" rx="1.5" fill="#8B1212"/>
-    <rect x="40" y="8" width="8" height="8" rx="1.5" fill="#5F1010"/>
-    <rect x="16" y="16" width="8" height="8" rx="1.5" fill="#4A0D0D"/>
-    <rect x="24" y="16" width="8" height="8" rx="1.5" fill="#B91C1C"/>
-    <rect x="32" y="16" width="8" height="8" rx="1.5" fill="#EF4444"/>
-    <rect x="40" y="16" width="8" height="8" rx="1.5" fill="#B91C1C"/>
-    <rect x="48" y="16" width="8" height="8" rx="1.5" fill="#5F1010"/>
-    <rect x="8" y="24" width="8" height="8" rx="1.5" fill="#3F0A0A"/>
-    <rect x="16" y="24" width="8" height="8" rx="1.5" fill="#7F1D1D"/>
-    <rect x="24" y="24" width="8" height="8" rx="1.5" fill="#DC2626"/>
-    <rect x="32" y="24" width="8" height="8" rx="1.5" fill="#FB7185"/>
-    <rect x="40" y="24" width="8" height="8" rx="1.5" fill="#EF4444"/>
-    <rect x="48" y="24" width="8" height="8" rx="1.5" fill="#991B1B"/>
-    <rect x="56" y="24" width="8" height="8" rx="1.5" fill="#4A0D0D"/>
-    <rect x="8" y="32" width="8" height="8" rx="1.5" fill="#511010"/>
-    <rect x="16" y="32" width="8" height="8" rx="1.5" fill="#991B1B"/>
-    <rect x="24" y="32" width="8" height="8" rx="1.5" fill="#DC2626"/>
-    <rect x="32" y="32" width="8" height="8" rx="1.5" fill="#FCA5A5"/>
-    <rect x="40" y="32" width="8" height="8" rx="1.5" fill="#EF4444"/>
-    <rect x="48" y="32" width="8" height="8" rx="1.5" fill="#B91C1C"/>
-    <rect x="56" y="32" width="8" height="8" rx="1.5" fill="#5F1010"/>
-    <rect x="16" y="40" width="8" height="8" rx="1.5" fill="#4A0D0D"/>
-    <rect x="24" y="40" width="8" height="8" rx="1.5" fill="#B91C1C"/>
-    <rect x="32" y="40" width="8" height="8" rx="1.5" fill="#EF4444"/>
-    <rect x="40" y="40" width="8" height="8" rx="1.5" fill="#B91C1C"/>
-    <rect x="48" y="40" width="8" height="8" rx="1.5" fill="#5F1010"/>
-    <rect x="24" y="48" width="8" height="8" rx="1.5" fill="#451010"/>
-    <rect x="32" y="48" width="8" height="8" rx="1.5" fill="#991B1B"/>
-    <rect x="40" y="48" width="8" height="8" rx="1.5" fill="#5F1010"/>
-  </g>
-
-  <g>
-    <text x="176" y="176" fill="#F9FAFB" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800">redstone.md</text>
-    <text x="176" y="216" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">
-      AI-native tools, reverse engineering systems, and distributed runtimes.
+    <text x="160" y="150" fill="url(#brandText)" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">redstone.md</text>
+    <text x="162" y="195" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500">
+      AI-native infrastructure &amp; reverse-engineering tooling.
     </text>
-    <text x="176" y="250" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">
+    <text x="162" y="228" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="400">
       Shipping the stable edge in public. Building the deeper stack in private.
     </text>
+
+    <circle cx="162" cy="265" r="4" fill="#10B981"/>
+    <text x="176" y="270" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">Local-first</text>
+    
+    <circle cx="270" cy="265" r="4" fill="#3B82F6"/>
+    <text x="284" y="270" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">Protocol-aware</text>
+    
+    <circle cx="410" cy="265" r="4" fill="#8B5CF6"/>
+    <text x="424" y="270" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">Operator-focused</text>
   </g>
 
-  <g>
-    <rect x="810" y="48" width="400" height="224" rx="24" fill="#0E1625" fill-opacity="0.9" stroke="url(#cardStroke)" stroke-width="1.5"/>
-    <text x="842" y="90" fill="#F9FAFB" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Current Focus</text>
+  <g transform="translate(850, 48)">
+    <text x="0" y="0" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" text-transform="uppercase">Public Edge Run-times</text>
+    
+    <g transform="translate(0, 20)">
+      <rect width="390" height="92" rx="14" fill="#1E293B" fill-opacity="0.6" stroke="#334155"/>
+      <rect width="390" height="2" rx="1" fill="url(#cardBorder1)"/>
+      
+      <text x="24" y="38" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">Agentium</text>
+      
+      <rect x="135" y="18" width="38" height="24" rx="6" fill="#00ADD8" fill-opacity="0.1" stroke="#00ADD8" stroke-opacity="0.4"/>
+      <text x="144" y="34" fill="#00ADD8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Go</text>
 
-    <rect x="842" y="110" width="148" height="36" rx="18" fill="#172033" stroke="#2C3A56"/>
-    <text x="864" y="133" fill="#FDBA74" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Agent Browsers</text>
+      <text x="24" y="64" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400">
+        AI-native browser engine driving Chromium
+      </text>
+      <text x="24" y="84" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400">
+        through CDP, exposing REST and MCP tools.
+      </text>
+    </g>
 
-    <rect x="998" y="110" width="160" height="36" rx="18" fill="#172033" stroke="#2C3A56"/>
-    <text x="1020" y="133" fill="#FCA5A5" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Reverse Engineering</text>
+    <g transform="translate(0, 130)">
+      <rect width="390" height="92" rx="14" fill="#1E293B" fill-opacity="0.6" stroke="#334155"/>
+      <rect width="390" height="2" rx="1" fill="url(#cardBorder2)"/>
+      
+      <text x="24" y="38" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">Mapr</text>
+      
+      <rect x="90" y="18" width="34" height="24" rx="6" fill="#3178C6" fill-opacity="0.1" stroke="#3178C6" stroke-opacity="0.4"/>
+      <text x="99" y="34" fill="#60A5FA" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">TS</text>
 
-    <rect x="842" y="158" width="160" height="36" rx="18" fill="#172033" stroke="#2C3A56"/>
-    <text x="864" y="181" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Mesh Networking</text>
+      <rect x="132" y="18" width="42" height="24" rx="6" fill="#F4F4F5" fill-opacity="0.1" stroke="#F4F4F5" stroke-opacity="0.3"/>
+      <text x="141" y="34" fill="#F4F4F5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Bun</text>
 
-    <rect x="1010" y="158" width="148" height="36" rx="18" fill="#172033" stroke="#2C3A56"/>
-    <text x="1032" y="181" fill="#86EFAC" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Operator Tools</text>
-
-    <path d="M842 226H1178" stroke="#2A3446"/>
-    <text x="842" y="250" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">
-      Public surface: Agentium, Mapr
-    </text>
+      <text x="24" y="64" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400">
+        Bun-native CLI/TUI for deep frontend reverse
+      </text>
+      <text x="24" y="84" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400">
+        engineering, artifacts collection, and AI.
+      </text>
+    </g>
   </g>
 </svg>
