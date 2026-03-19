@@ -55,7 +55,7 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/redstone-md/agentium">Agentium</a></h3>
       <p>
-        <img src="https://img.shields.io/github/stars/redstone-md/agentium?style=flat-square&color=B91C1C" alt="Stars" />
+        <img src="https://img.shields.io/github/stars/redstone-md/agentium?style=flat-square&color=B91C1C&label=Stars" alt="Stars" />
         <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
       </p>
       <p>AI-native browser engine driving Chromium through CDP, exposing REST and MCP tools for agentic workflows.</p>
@@ -63,7 +63,7 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/redstone-md/Mapr">Mapr</a></h3>
       <p>
-        <img src="https://img.shields.io/github/stars/redstone-md/Mapr?style=flat-square&color=B91C1C" alt="Stars" />
+        <img src="https://img.shields.io/github/stars/redstone-md/Mapr?style=flat-square&color=B91C1C&label=Stars" alt="Stars" />
         <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
       </p>
       <p>Bun-native reverse engineering CLI for deep artifact collection and AI-assisted code intelligence.</p>
@@ -87,9 +87,9 @@ Our internal lab maintains rapid-iteration repositories for:
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/github/orgs/repositories/redstone-md?style=flat-square&color=B91C1C&label=Active+Repos" alt="Total Repos" />
-  <img src="https://img.shields.io/github/orgs/stars/redstone-md?style=flat-square&color=B91C1C&label=Global+Stars" alt="Total Stars" />
-  <img src="https://img.shields.io/github/orgs/followers/redstone-md?style=flat-square&color=B91C1C&label=Followers" alt="Followers" />
+  <img src="https://img.shields.io/badge/Status-Active%20R%26D-B91C1C?style=flat-square" alt="Active R&D" />
+  <img src="https://img.shields.io/badge/Public%20Tools-2-B91C1C?style=flat-square" alt="Public Tools" />
+  <img src="https://img.shields.io/badge/Private%20Nodes-5-1f1f1f?style=flat-square" alt="Private Nodes" />
 </div>
 
 ---
