@@ -1,147 +1,101 @@
-<p align="center">
+<div align="center">
   <img src="./assets/banner.svg" alt="redstone.md banner" width="100%" />
-</p>
+</div>
 
-<p align="center">
-  <a href="https://github.com/redstone-md">
-    <img src="https://img.shields.io/badge/Organization-redstone.md-B91C1C?style=for-the-badge&logo=github&logoColor=white" alt="Organization badge" />
+<div align="center">
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=B91C1C&center=true&vCenter=true&width=900&lines=Building+AI-native+infrastructure;Reverse+engineering+the+modern+web;Distributed+runtimes+%E2%80%A2+Edge+automation;Local-first+systems+for+the+next+era." alt="Typing intro" />
   </a>
-  <a href="https://redstone.md">
-    <img src="https://img.shields.io/badge/Web-redstone.md-EA580C?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website badge" />
-  </a>
-  <a href="mailto:carpet@redstone.md">
-    <img src="https://img.shields.io/badge/Contact-carpet@redstone.md-7C2D12?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact badge" />
-  </a>
-</p>
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Repos-8-111827?style=flat-square" alt="8 repositories" />
-  <img src="https://img.shields.io/badge/Public-3-166534?style=flat-square" alt="3 public repositories" />
-  <img src="https://img.shields.io/badge/Private%20R%26D-5-92400E?style=flat-square" alt="5 private repositories" />
-  <img src="https://img.shields.io/badge/Members-5-0F766E?style=flat-square" alt="5 members" />
-  <img src="https://img.shields.io/badge/Public%20Stars-3-854D0E?style=flat-square" alt="3 public stars" />
-  <img src="https://img.shields.io/badge/Founded-2026-1D4ED8?style=flat-square" alt="Founded in 2026" />
-</p>
+<div align="center">
+  <a href="https://redstone.md"><img src="https://img.shields.io/badge/Website-redstone.md-B91C1C?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="mailto:carpet@redstone.md"><img src="https://img.shields.io/badge/Contact-carpet@redstone.md-1f1f1f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Founded-2026-B91C1C?style=for-the-badge" alt="Founded" />
+</div>
 
-<p align="center">
-  <strong>redstone.md</strong> builds AI-native infrastructure, browser automation engines, reverse-engineering tooling, and distributed runtimes.
-  <br />
-  Most work happens in private R&amp;D tracks while we extract stable public surfaces as standalone tools.
-</p>
+<br/>
 
-## What We Build
+<div align="center">
+  <h3>⚡ Engineering the Unseen</h3>
+  <p><strong>redstone.md</strong> is an R&D collective focused on AI-native infrastructure, browser automation, and distributed systems. We build the tools that empower agents and the runtimes that secure them.</p>
+</div>
 
-<table>
+<br/>
+
+## 🏗️ Core R&D Tracks
+
+<table border="0">
   <tr>
     <td width="50%" valign="top">
-      <h3>Agent-Native Browsers</h3>
-      <p>Browser engines and control surfaces designed for AI agents, automation flows, and protocol-level integrations.</p>
+      <h3>🌐 Agent-Native Browsers</h3>
+      <p>Control surfaces designed for LLM-driven automation and protocol-level browser orchestration.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Reverse Engineering Tooling</h3>
-      <p>Code-intelligence pipelines for crawling, unpacking, mapping, and explaining modern frontend systems.</p>
+      <h3>🔍 Reverse Engineering</h3>
+      <p>Deep-intelligence pipelines for deobfuscation, mapping, and explaining modern frontend targets.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Mesh &amp; Embedded Networking</h3>
-      <p>Distributed runtime components and peer-to-peer primitives aimed at resilient local-first systems.</p>
+      <h3>🕸️ Mesh Runtimes</h3>
+      <p>Peer-to-peer primitives and distributed compute modules for resilient local-first environments.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Operator-Focused Apps</h3>
-      <p>Desktop and local tooling that turn complex runtimes into workflows people can actually operate.</p>
+      <h3>🛠️ Operator Tooling</h3>
+      <p>High-ergonomic desktop clients and CLIs that turn complex infrastructure into actionable workflows.</p>
     </td>
   </tr>
 </table>
 
-## Public Projects
+## 🚀 Stable Public Surface
 
-<table>
+<table border="0">
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/redstone-md/agentium">Agentium</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go badge" />
-        <img src="https://img.shields.io/badge/Public-166534?style=flat-square" alt="Public badge" />
-        <img src="https://img.shields.io/badge/Stars-0-111827?style=flat-square" alt="0 stars" />
+        <img src="https://img.shields.io/github/stars/redstone-md/agentium?style=flat-square&color=B91C1C" alt="Stars" />
+        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
       </p>
-      <p>AI-native browser engine in Go that drives Chromium through CDP, exposes a REST API for sessions, and ships MCP tools for agent workflows.</p>
-      <p><strong>Focus:</strong> Chromium, CDP, MCP, browser orchestration, automation infrastructure.</p>
+      <p>AI-native browser engine driving Chromium through CDP, exposing REST and MCP tools for agentic workflows.</p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/redstone-md/Mapr">Mapr</a></h3>
       <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript badge" />
-        <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun badge" />
-        <img src="https://img.shields.io/badge/Stars-3-111827?style=flat-square" alt="3 stars" />
+        <img src="https://img.shields.io/github/stars/redstone-md/Mapr?style=flat-square&color=B91C1C" alt="Stars" />
+        <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
       </p>
-      <p>Bun-native CLI/TUI for deep frontend reverse engineering, artifact collection, multi-agent analysis, and Markdown report generation.</p>
-      <p><strong>Focus:</strong> code intelligence, deobfuscation, call graphs, reverse engineering, AI-assisted analysis.</p>
+      <p>Bun-native reverse engineering CLI for deep artifact collection and AI-assisted code intelligence.</p>
     </td>
   </tr>
 </table>
 
-## Private R&D Surface
+## 🛡️ The Deep Stack (Private)
 
-We currently maintain additional private tracks around:
+Our internal lab maintains rapid-iteration repositories for:
+- **Distributed Mesh Runtimes**: Local-first compute primitives.
+- **Local AI Gateways**: Secure routing and evaluation for agent workloads.
+- **Experimental Systems**: Low-level networking and protocol-heavy prototypes.
 
-- distributed mesh runtimes
-- operator desktop clients
-- local AI gateways
-- low-level systems experiments
-- game-adjacent networking prototypes
+## 🛠️ Stack & Ecosystem
 
-That split is intentional: public repositories show the stable edge, while private repositories absorb rapid iteration.
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,go,rust,java,bun,nodejs,docker,linux,mysql,sqlite,mongodb,redis,cloudflare,git,github,githubactions,powershell&perline=9" alt="Tech stack" />
+</div>
 
-## Organization Snapshot
+<br/>
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {
-  'pie1': '#B91C1C',
-  'pie2': '#EA580C',
-  'pie3': '#D97706',
-  'pie4': '#1F2937',
-  'pieOuterStrokeWidth': '0px',
-  'pieSectionTextColor': '#111827'
-}}}%%
-pie showData
-    title Repository Visibility
-    "Public" : 3
-    "Private R&D" : 5
-```
+<div align="center">
+  <img src="https://img.shields.io/github/orgs/repositories/redstone-md?style=flat-square&color=B91C1C&label=Active+Repos" alt="Total Repos" />
+  <img src="https://img.shields.io/github/orgs/stars/redstone-md?style=flat-square&color=B91C1C&label=Global+Stars" alt="Total Stars" />
+  <img src="https://img.shields.io/github/orgs/followers/redstone-md?style=flat-square&color=B91C1C&label=Followers" alt="Followers" />
+</div>
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {
-  'pie1': '#0F766E',
-  'pie2': '#1D4ED8',
-  'pie3': '#B91C1C',
-  'pie4': '#D97706',
-  'pie5': '#7C3AED',
-  'pie6': '#4B5563',
-  'pieOuterStrokeWidth': '0px',
-  'pieSectionTextColor': '#111827'
-}}}%%
-pie showData
-    title Primary Language Footprint
-    "Go" : 2
-    "TypeScript" : 2
-    "Rust" : 1
-    "Java" : 1
-    "JavaScript" : 1
-    "Other" : 1
-```
+---
 
-These charts are based on the current repository layout of the organization as of March 19, 2026.
-
-## Working Style
-
-- We prefer protocol-aware tools over thin wrappers.
-- We ship local-first systems with strong operator ergonomics.
-- We use AI where it increases leverage, not where it adds noise.
-- We release focused public components once the core surfaces are stable.
-
-## Reach Out
-
-- Website: [redstone.md](https://redstone.md)
-- GitHub: [github.com/redstone-md](https://github.com/redstone-md)
-- Contact: [carpet@redstone.md](mailto:carpet@redstone.md)
+<div align="center">
+  <em>Shipping the stable edge in public. Building the deeper stack in private.</em>
+  <br/>
+  <strong>redstone.md • 2026</strong>
+</div>
