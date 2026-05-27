@@ -29,21 +29,37 @@
   <tr>
     <td width="50%" valign="top">
       <h3>🌐 Agent-Native Browsers</h3>
-      <p>Control surfaces designed for LLM-driven automation and protocol-level browser orchestration.</p>
+      <p>Headless browser engines and CDP control surfaces purpose-built for LLM-driven automation.</p>
+      <p><code>→ agentium</code></p>
     </td>
     <td width="50%" valign="top">
       <h3>🔍 Reverse Engineering</h3>
-      <p>Deep-intelligence pipelines for deobfuscation, mapping, and explaining modern frontend targets.</p>
+      <p>Deep-intelligence pipelines for deobfuscation, mapping, and reconstructing modern frontend targets.</p>
+      <p><code>→ Mapr</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🕸️ Mesh Runtimes</h3>
-      <p>Peer-to-peer primitives and distributed compute modules for resilient local-first environments.</p>
+      <h3>🕸️ P2P Mesh Runtimes</h3>
+      <p>Embeddable peer-to-peer primitives and distributed compute — from Go libraries to desktop clients.</p>
+      <p><code>→ moss · MossyMod · mosh</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛠️ Operator Tooling</h3>
-      <p>High-ergonomic desktop clients and CLIs that turn complex infrastructure into actionable workflows.</p>
+      <h3>🛡️ Security & Privacy</h3>
+      <p>Open-source VPN infrastructure for censored networks, TLS identity proxies, and anti-spam systems.</p>
+      <p><code>→ veil · Doppel · shield</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 Agent Infrastructure</h3>
+      <p>Persistent MCP servers, local AI gateways, and routing layers that glue agents to real systems.</p>
+      <p><code>→ Continuum · Gouter · fence</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧪 Experimental Systems</h3>
+      <p>Low-level networking, protocol research, and rapid-iteration prototypes pushing infrastructure boundaries.</p>
+      <p><code>→ AGI · evolver · MossSpore</code></p>
     </td>
   </tr>
 </table>
@@ -53,14 +69,6 @@
 <table border="0">
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/redstone-md/agentium">Agentium</a></h3>
-      <p>
-        <img src="https://img.shields.io/github/stars/redstone-md/agentium?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
-        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-      </p>
-      <p>AI-native browser engine driving Chromium through CDP, exposing REST and MCP tools for agentic workflows.</p>
-    </td>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/redstone-md/Mapr">Mapr</a></h3>
       <p>
         <img src="https://img.shields.io/github/stars/redstone-md/Mapr?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
@@ -68,15 +76,59 @@
       </p>
       <p>Bun-native reverse engineering CLI for deep artifact collection and AI-assisted code intelligence.</p>
     </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/redstone-md/moss">moss</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/stars/redstone-md/moss?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
+        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+      </p>
+      <p>Embeddable P2P mesh core — Go library exported through CGO as a C-shared library for mesh networking.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/redstone-md/veil">veil</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/stars/redstone-md/veil?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
+        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+      </p>
+      <p>Open-source VPN platform designed for environments with active deep-packet inspection (Russia, China, Iran).</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/redstone-md/agentium">Agentium</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/stars/redstone-md/agentium?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
+        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+      </p>
+      <p>AI-native browser engine driving Chromium through CDP, exposing REST and MCP tools for agentic workflows.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/redstone-md/Continuum">Continuum</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/stars/redstone-md/Continuum?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
+        <img src="https://img.shields.io/badge/Language-Rust-f74c00?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+      </p>
+      <p>Persistent, multi-agent MCP server giving AI coding agents a shared, live view of a codebase with cross-session memory.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/redstone-md/Doppel">Doppel</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/stars/redstone-md/Doppel?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
+        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+      </p>
+      <p>Transparent TLS identity proxy for local automation, security testing, and network-fingerprint research.</p>
+    </td>
   </tr>
 </table>
 
 ## 🛡️ The Deep Stack (Private)
 
 Our internal lab maintains rapid-iteration repositories for:
-- **Distributed Mesh Runtimes**: Local-first compute primitives.
-- **Local AI Gateways**: Secure routing and evaluation for agent workloads.
-- **Experimental Systems**: Low-level networking and protocol-heavy prototypes.
+- **AI Gateways & Routing**: Local AI inference routing, Anthropic-compatible API wrappers.
+- **Experimental AGI Research**: Foundational AGI baseline research and prototype engineering.
+- **Automation Infrastructure**: Email processing, e-commerce automation, and agent orchestration tooling.
 
 ## 🛠️ Stack & Ecosystem
 
@@ -88,8 +140,8 @@ Our internal lab maintains rapid-iteration repositories for:
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Active%20R%26D-EA580C?style=flat-square" alt="Active R&D" />
-  <img src="https://img.shields.io/badge/Public%20Tools-2-EA580C?style=flat-square" alt="Public Tools" />
-  <img src="https://img.shields.io/badge/Private%20Nodes-5-334155?style=flat-square" alt="Private Nodes" />
+  <img src="https://img.shields.io/github/stars/redstone-md/Mapr?style=flat-square&color=EA580C&label=%E2%AD%90+Total+Stars" alt="Stars" />
+  <img src="https://img.shields.io/badge/Public%20Repos-13-EA580C?style=flat-square" alt="Public Repos" />
 </div>
 
 ---
