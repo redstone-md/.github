@@ -1,153 +1,132 @@
 <div align="center">
-  <img src="./assets/banner.png" alt="redstone.md banner" width="100%" />
+  <img src="./assets/banner.png" alt="redstone.md — engineering the unseen" width="100%" />
 </div>
 
-<div align="center">
-  <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=EA580C&center=true&vCenter=true&width=900&lines=Building+AI-native+infrastructure;Reverse+engineering+the+modern+web;Distributed+runtimes+%E2%80%A2+Edge+automation;Local-first+systems+for+the+next+era." alt="Typing intro" />
-  </a>
-</div>
+<p align="center">
+  <a href="https://redstone.md"><img src="https://img.shields.io/badge/redstone.md-EA580C?style=flat-square&labelColor=0A0A0B" alt="Website" /></a>
+  <a href="mailto:carpet@redstone.md"><img src="https://img.shields.io/badge/carpet@redstone.md-0A0A0B?style=flat-square&labelColor=0A0A0B" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/est.%202026-0A0A0B?style=flat-square&labelColor=0A0A0B" alt="Founded 2026" />
+</p>
 
-<div align="center">
-  <a href="https://redstone.md"><img src="https://img.shields.io/badge/Website-redstone.md-EA580C?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
-  <a href="mailto:carpet@redstone.md"><img src="https://img.shields.io/badge/Contact-carpet@redstone.md-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Founded-2026-EA580C?style=for-the-badge" alt="Founded" />
-</div>
+<p align="center">
+  <b>redstone.md</b> builds infrastructure for machines that act on their own —<br/>
+  agent runtimes, browser automation, peer-to-peer transport, and the privacy layer under all of it.<br/>
+  Most of it ships as a single binary. All of it runs local-first.
+</p>
 
 <br/>
 
-<div align="center">
-  <h3 style="color: #EA580C;">⚡ Engineering the Unseen</h3>
-  <p><strong>redstone.md</strong> is an R&D collective focused on AI-native infrastructure, browser automation, and distributed systems. We build the tools that empower agents and the runtimes that secure them.</p>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/map-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/map-light.svg" />
+  <img src="./assets/map-dark.svg" alt="redstone.md system map: agent infrastructure, automation, mesh, security, runtime" width="100%" />
+</picture>
 
 <br/>
 
-## 🏗️ Core R&D Tracks
+## Shipping now
 
 <table border="0">
   <tr>
     <td width="50%" valign="top">
-      <h3>🌐 Agent-Native Browsers</h3>
-      <p>Headless browser engines and CDP control surfaces purpose-built for LLM-driven automation.</p>
-      <p><code>→ agentium</code></p>
+      <h3><a href="https://github.com/redstone-md/Continuum">Continuum</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/stars/redstone-md/Continuum?style=flat-square&color=EA580C&labelColor=0A0A0B&label=%E2%98%85" alt="Stars" />
+        <img src="https://img.shields.io/badge/Rust-0A0A0B?style=flat-square&logo=rust&logoColor=EA580C" alt="Rust" />
+      </p>
+      <p>MCP server that gives Claude Code, Codex, Gemini CLI and OpenCode one shared view of a codebase — plus memory that outlives the session.</p>
     </td>
-    <td width="50%" valign="top">
-      <h3>🔍 Reverse Engineering</h3>
-      <p>Deep-intelligence pipelines for deobfuscation, mapping, and reconstructing modern frontend targets.</p>
-      <p><code>→ Mapr</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🕸️ P2P Mesh Runtimes</h3>
-      <p>Embeddable peer-to-peer primitives and distributed compute — from Go libraries to desktop clients.</p>
-      <p><code>→ moss · MossyMod · mosh</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛡️ Security & Privacy</h3>
-      <p>Open-source VPN infrastructure for censored networks, TLS identity proxies, and anti-spam systems.</p>
-      <p><code>→ veil · Doppel · shield</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧠 Agent Infrastructure</h3>
-      <p>Persistent MCP servers, local AI gateways, and routing layers that glue agents to real systems.</p>
-      <p><code>→ Continuum · Gouter · fence</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧪 Experimental Systems</h3>
-      <p>Low-level networking, protocol research, and rapid-iteration prototypes pushing infrastructure boundaries.</p>
-      <p><code>→ AGI · evolver · MossSpore</code></p>
-    </td>
-  </tr>
-</table>
-
-## 🚀 Stable Public Surface
-
-<table border="0">
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/redstone-md/Mapr">Mapr</a></h3>
       <p>
-        <img src="https://img.shields.io/github/stars/redstone-md/Mapr?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
-        <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
+        <img src="https://img.shields.io/github/stars/redstone-md/Mapr?style=flat-square&color=EA580C&labelColor=0A0A0B&label=%E2%98%85" alt="Stars" />
+        <img src="https://img.shields.io/badge/TypeScript-0A0A0B?style=flat-square&logo=typescript&logoColor=EA580C" alt="TypeScript" />
       </p>
-      <p>Bun-native reverse engineering CLI for deep artifact collection and AI-assisted code intelligence.</p>
+      <p>Frontend reverse-engineering TUI. Crawls a target, feeds chunked bundles through a multi-agent pipeline, and writes back call graphs and restored names.</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/redstone-md/moss">moss</a></h3>
       <p>
-        <img src="https://img.shields.io/github/stars/redstone-md/moss?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
-        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/github/stars/redstone-md/moss?style=flat-square&color=EA580C&labelColor=0A0A0B&label=%E2%98%85" alt="Stars" />
+        <img src="https://img.shields.io/badge/Go-0A0A0B?style=flat-square&logo=go&logoColor=EA580C" alt="Go" />
       </p>
-      <p>Embeddable P2P mesh core — Go library exported through CGO as a C-shared library for mesh networking.</p>
+      <p>P2P mesh core, embeddable anywhere. Written in Go, exported through CGO as a C shared library — so Rust, Java and C++ clients all speak the same protocol.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/redstone-md/g3">g3</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/stars/redstone-md/g3?style=flat-square&color=EA580C&labelColor=0A0A0B&label=%E2%98%85" alt="Stars" />
+        <img src="https://img.shields.io/badge/Go-0A0A0B?style=flat-square&logo=go&logoColor=EA580C" alt="Go" />
+      </p>
+      <p>S3-compatible object storage backed by a pool of Google Drive accounts. Balanced across the pool, one binary, web panel included.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/redstone-md/veil">veil</a></h3>
       <p>
-        <img src="https://img.shields.io/github/stars/redstone-md/veil?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
-        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/github/stars/redstone-md/veil?style=flat-square&color=EA580C&labelColor=0A0A0B&label=%E2%98%85" alt="Stars" />
+        <img src="https://img.shields.io/badge/Go-0A0A0B?style=flat-square&logo=go&logoColor=EA580C" alt="Go" />
       </p>
-      <p>Open-source VPN platform designed for environments with active deep-packet inspection (Russia, China, Iran).</p>
+      <p>VPN platform for networks with live DPI — Russia, China, Iran. Built on one idea: make blocking it expensive enough to break the legitimate web.</p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/redstone-md/agentium">Agentium</a></h3>
+      <h3><a href="https://github.com/redstone-md/rava">rava</a></h3>
       <p>
-        <img src="https://img.shields.io/github/stars/redstone-md/agentium?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
-        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/github/stars/redstone-md/rava?style=flat-square&color=EA580C&labelColor=0A0A0B&label=%E2%98%85" alt="Stars" />
+        <img src="https://img.shields.io/badge/Rust-0A0A0B?style=flat-square&logo=rust&logoColor=EA580C" alt="Rust" />
       </p>
-      <p>AI-native browser engine driving Chromium through CDP, exposing REST and MCP tools for agentic workflows.</p>
+      <p>A Java runtime written in Rust. Aimed at running real Java workloads on machines with no system JVM.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/redstone-md/Continuum">Continuum</a></h3>
+      <h3><a href="https://github.com/redstone-md/ConfAI">ConfAI</a></h3>
       <p>
-        <img src="https://img.shields.io/github/stars/redstone-md/Continuum?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
-        <img src="https://img.shields.io/badge/Language-Rust-f74c00?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+        <img src="https://img.shields.io/github/stars/redstone-md/ConfAI?style=flat-square&color=EA580C&labelColor=0A0A0B&label=%E2%98%85" alt="Stars" />
+        <img src="https://img.shields.io/badge/Rust-0A0A0B?style=flat-square&logo=rust&logoColor=EA580C" alt="Rust" />
       </p>
-      <p>Persistent, multi-agent MCP server giving AI coding agents a shared, live view of a codebase with cross-session memory.</p>
+      <p>One editor for every coding agent's config — Codex, Claude Code, opencode. Switch providers and sync models without hand-mangling the file.</p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/redstone-md/Doppel">Doppel</a></h3>
+      <h3><a href="https://github.com/redstone-md/agentium">Agentium</a></h3>
       <p>
-        <img src="https://img.shields.io/github/stars/redstone-md/Doppel?style=flat-square&color=EA580C&label=Stars" alt="Stars" />
-        <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/github/stars/redstone-md/agentium?style=flat-square&color=EA580C&labelColor=0A0A0B&label=%E2%98%85" alt="Stars" />
+        <img src="https://img.shields.io/badge/Go-0A0A0B?style=flat-square&logo=go&logoColor=EA580C" alt="Go" />
       </p>
-      <p>Transparent TLS identity proxy for local automation, security testing, and network-fingerprint research.</p>
+      <p>Browser engine for agents, not people. Drives Chromium over CDP and exposes sessions through both REST and MCP tools.</p>
     </td>
   </tr>
 </table>
 
-## 🛡️ The Deep Stack (Private)
+## Also public
 
-Our internal lab maintains rapid-iteration repositories for:
-- **AI Gateways & Routing**: Local AI inference routing, Anthropic-compatible API wrappers.
-- **Experimental AGI Research**: Foundational AGI baseline research and prototype engineering.
-- **Automation Infrastructure**: Email processing, e-commerce automation, and agent orchestration tooling.
+| Project | | |
+| --- | --- | --- |
+| [**Nodule**](https://github.com/redstone-md/Nodule) | Go | Local MCP server whose one tool, `bounce_idea`, sends your design to a second LLM for critique |
+| [**graft**](https://github.com/redstone-md/graft) | Go | Runs a prompt across a panel of models in parallel, then has a judge synthesize the winner |
+| [**Doppel**](https://github.com/redstone-md/Doppel) | Go | Transparent TLS identity proxy for automation and network-fingerprint research |
+| [**shield**](https://github.com/redstone-md/shield) | Go | Self-hosted Telegram moderation and anti-spam bot |
+| [**MossSpore**](https://github.com/redstone-md/MossSpore) | Go | Headless relay daemon for the Moss mesh — launch one, become a point of presence |
+| [**mosh**](https://github.com/redstone-md/mosh) | Rust | Desktop chat client for the MOSS runtime |
+| [**MossyMod**](https://github.com/redstone-md/MossyMod) | Java | Fabric mod putting mesh world discovery and P2P joins into Minecraft |
+| [**Gale**](https://github.com/redstone-md/Gale) | Go | Declarative Go UI toolkit — signals, flex layout, native rendering backends |
+| [**Gouter**](https://github.com/redstone-md/Gouter) | Go | AI API gateway |
+| [**fence**](https://github.com/redstone-md/fence) | Bun | Anthropic-compatible chat API over the claude.ai web backend |
+| [**EmailHub**](https://github.com/redstone-md/EmailHub) | Bun | Temporary email hub for inbound fan-out |
+| [**silktouch**](https://github.com/redstone-md/silktouch) | Python | Modular media downloader bot — yt-dlp, local Bot API, 2 GB uploads |
+| [**DDC**](https://github.com/redstone-md/DDC) | Java | Tabletop RPG rules and storytelling grafted onto Minecraft — Fabric and NeoForge |
 
-## 🛠️ Stack & Ecosystem
+## Private stack
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,go,rust,java,bun,nodejs,docker,linux,mysql,sqlite,mongodb,redis,cloudflare,git,github,githubactions,powershell&perline=9" alt="Tech stack" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Active%20R%26D-EA580C?style=flat-square" alt="Active R&D" />
-  <img src="https://img.shields.io/github/stars/redstone-md/Mapr?style=flat-square&color=EA580C&label=%E2%AD%90+Total+Stars" alt="Stars" />
-  <img src="https://img.shields.io/badge/Public%20Repos-13-EA580C?style=flat-square" alt="Public Repos" />
-</div>
+The lab keeps a faster-moving half: AGI baseline research, agent orchestration, e-commerce and email automation, inference routing. Nothing there is stable enough to depend on. Some of it graduates to the list above.
 
 ---
 
 <div align="center">
-  <em style="color: #94A3B8;">Shipping the stable edge in public. Building the deeper stack in private.</em>
+  <sub>Stable edge in public. Deeper stack in private.</sub>
   <br/>
-  <strong>redstone.md • 2026</strong>
+  <sub><b>redstone.md</b> · 2026</sub>
 </div>
